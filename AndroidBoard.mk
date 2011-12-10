@@ -314,8 +314,8 @@ $(file) : $(LOCAL_PATH)/proprietary/keychars/I7500_keypad.kcm.bin | $(ACP)
 	$(transform-prebuilt-to-target)
 
 # Other Files
-PRODUCT_COPY_FILES += vendor/Samsung/I7500/open/etc/apns-conf.xml:system/etc/apns-conf.xml \
-                     vendor/Samsung/I7500/proprietary/bin/vold:system/bin/vold
+PRODUCT_COPY_FILES += vendor/samsung/I7500/open/etc/apns-conf.xml:system/etc/apns-conf.xml \
+                     vendor/samsung/I7500/proprietary/bin/vold:system/bin/vold
 
 
 
